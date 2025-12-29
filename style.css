@@ -1,51 +1,52 @@
+/* ===========================
+   Global
+=========================== */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #333;
-  margin: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FAFAFA; /* fond neutre pour faire ressortir les couleurs */
+    color: #222;
+    line-height: 1.6;
 }
 
+/* ===========================
+   Header
+=========================== */
 header {
-  background: #f4f6f8;
-  padding: 20px;
-  text-align: center;
+    background: linear-gradient(135deg, #FF4B5C, #FF6F61); /* dégradé vif */
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem; /* espace généreux */
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+header p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+a.button {
+    background: #FFC300;
+    color: #222;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+a.button:hover {
+    background: #FF4B5C;
+    color: white;
+    transform: scale(1.05);
 }
 
-nav {
-  text-align: right;
-  padding: 10px 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin-left: 10px;
-  font-weight: bold;
-}
-
+/* ===========================
+   Sections
+=========================== */
 section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-.button {
-  background: #2c7be5;
-  color: white;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 6px;
-  display: inline-block;
-  margin-top: 15px;
-}
-
-footer {
-  background: #f4f6f8;
-  text-align: center;
-  padding: 20px;
-}
-
+    padding: 4rem 2rem;
